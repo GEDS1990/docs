@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T06:13:29.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="-dzx26CdGv8gLTqXnM6O" version="20.4.0" type="github"><diagram id="KbchkIKG-qQ7ytqduDwR" name="第 1 页">5VhNb6MwFPw1PlYKNgFzxCndPWylSpF29+oGN1gBHBmnSfrr1w4mhDgfbRraanuJ8GA/w8y890wAGhWrH5LOs3uRshzAQboC6BZAGPmB/jXAugYCOKiBqeRpDXktMOYvzILNtAVPWdWZqITIFZ93wYkoSzZRHYxKKZbdaU8i7+46p1PmAOMJzV30D09VVqMYhi3+k/Fp1uzsBVF9p6DNZPsmVUZTsdyBUALQSAqh6qtiNWK54a7hpV53d+Tu9sEkK9VrFszwGkOCst/zuAjiMX0h8O+NjfJM84V94QfNrn1gtW5YqJa8yGmpR2SS8Tz9RddiYXatFJ3MmhGRrNICPjSP5O1B99S4YqBRvUwqKzY0QCYkfxGlormd0QJjs4WNZp+WScVWR2nwtuRqUzJRMCXXeopdsNXDGhLb4bJVFzVYtqOs34DUOmq6Dd2Sri8s72/QADoaLNnjKQkc9l5Fy3H9j3PlcuPBD+Vm6HADkhBgCEgEkiHAISAEJBgQfYE2F7cgHoEkAHgEsJ4TgQiCOHHozFSRW1MZ3rjO+Djn01Jjj0IpUegbrExjU0IMlgtjQiLFokxZak1aR2WpU0LOsA4Ps75Dc0OoZDlV/Lkb/xDLNtqD4HrnrYBR1+vDPZkqsZATZtfslo69MF54Oo7245QpJ85G8e37XW4CfMAEWuk7EPnGBBEBUWJsoYcx3mhvDKHEjJXv1V3MdQxEUlplG9W9+rZNPty3I94pvxf6Hd28Sw0QnYnTswGaw8BJB1AOEh8QvKkIEYg9QIYL6fayb+0AiK7jACdOzw5AjgHmmpcnIYsv0Sg9/9M7Zfj/F0nUT4oE3ebmeRemCD4Tp+cUiQ4aACfmbGSOStoJQU818rqnoyMyX/90dIO6isHBhcoPz8Tpuz26X3HumdhIrxUPtAu60pOJEDOuv7GTO0D0oRnXNcGOou/qDRh0Nd0v3K8+O++VBSdQz+bwHW9oJ3yFngmDT++ZweG8GQCMuq0yAfHQFtEYuWX1Kl30uonif1ii7BW/8MI8QafDXJwletj+x1ZPb/+oRMk/</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-10T06:15:58.855Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="tcjxNKHkFuuMd376_A5F" version="20.4.0" type="github">
+  <diagram id="KbchkIKG-qQ7ytqduDwR" name="第 1 页">
+    <mxGraphModel dx="946" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k8y82B3hVpAm6ASazB2X-1" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="80" width="380" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="k8y82B3hVpAm6ASazB2X-2" value="web" style="swimlane;startSize=20;" parent="k8y82B3hVpAm6ASazB2X-1" vertex="1">
+          <mxGeometry x="20" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="k8y82B3hVpAm6ASazB2X-5" value="点击跳转按钮" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="k8y82B3hVpAm6ASazB2X-2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="50" as="sourcePoint" />
+            <mxPoint x="170" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8y82B3hVpAm6ASazB2X-8" value="返回用户token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="k8y82B3hVpAm6ASazB2X-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="174" y="150" as="sourcePoint" />
+            <mxPoint x="94" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8y82B3hVpAm6ASazB2X-10" value="返回ai主页url" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="k8y82B3hVpAm6ASazB2X-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="174" y="230" as="sourcePoint" />
+            <mxPoint x="94" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8y82B3hVpAm6ASazB2X-3" value="platform" style="swimlane;startSize=20;" parent="k8y82B3hVpAm6ASazB2X-1" vertex="1">
+          <mxGeometry x="140" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="k8y82B3hVpAm6ASazB2X-7" value="返回用户token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="k8y82B3hVpAm6ASazB2X-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="110" as="sourcePoint" />
+            <mxPoint x="80" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8y82B3hVpAm6ASazB2X-9" value="获取ai主页url" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="k8y82B3hVpAm6ASazB2X-3" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-30" y="200" as="sourcePoint" />
+            <mxPoint x="50" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8y82B3hVpAm6ASazB2X-11" value="跳转ai首页url+cookies（token）" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="k8y82B3hVpAm6ASazB2X-3" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-26" y="280" as="sourcePoint" />
+            <mxPoint x="180" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8y82B3hVpAm6ASazB2X-4" value="ai" style="swimlane;startSize=20;" parent="k8y82B3hVpAm6ASazB2X-1" vertex="1">
+          <mxGeometry x="260" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="k8y82B3hVpAm6ASazB2X-6" value="调用接口获取token" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="k8y82B3hVpAm6ASazB2X-4" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-50" y="70" as="sourcePoint" />
+            <mxPoint x="30" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
