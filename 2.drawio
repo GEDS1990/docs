@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T03:08:40.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="lZykjENbqHs5BrBUqGXL" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T03:09:04.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="vkfpIpO44tOK-RH5BGzG" version="20.4.0" type="github">
   <diagram id="1hayQljf1ZsxbdmPmDOX" name="第 1 页">
     <mxGraphModel dx="946" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,6 +57,9 @@
             <mxPoint x="390" y="569.5" as="sourcePoint" />
             <mxPoint x="570" y="569.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="69p_i0Bnsy38mmt7RjqC-15" value="etc对接ai环境信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="70" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
