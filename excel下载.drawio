@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T03:48:43.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="QxalXQnmgzZRfgJrGfSu" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T03:49:31.859Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="NvhijuU_zXNX_aAA4OXq" version="20.4.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,11 +8,12 @@
           <mxGeometry x="120" y="80" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="dispatch" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="下载按钮" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-15" y="70" as="sourcePoint" />
+            <mxPoint x="-15" y="99" as="sourcePoint" />
+            <mxPoint x="45" y="99" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="iface" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
@@ -23,14 +24,14 @@
         </mxCell>
         <mxCell id="eiOEAItG_VwJ-9S8kzIw-5" value="文件的url" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-125" y="180" as="targetPoint" />
-            <mxPoint x="40" y="180" as="sourcePoint" />
+            <mxPoint x="-125" y="228" as="targetPoint" />
+            <mxPoint x="40" y="228" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="获取ai bucket oss目录" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="eiOEAItG_VwJ-9S8kzIw-2" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="获取ai bucket oss目录" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="275" y="160" as="sourcePoint" />
-            <mxPoint x="460" y="160" as="targetPoint" />
+            <mxPoint x="175" y="181" as="sourcePoint" />
+            <mxPoint x="544" y="181" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eiOEAItG_VwJ-9S8kzIw-1" value="ai" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
@@ -39,16 +40,16 @@
         <mxCell id="eiOEAItG_VwJ-9S8kzIw-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="eiOEAItG_VwJ-9S8kzIw-1">
           <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="eiOEAItG_VwJ-9S8kzIw-3" value="返回ai bucket oss目录" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="eiOEAItG_VwJ-9S8kzIw-1">
+        <mxCell id="eiOEAItG_VwJ-9S8kzIw-3" value="返回ai bucket oss目录" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="180" as="targetPoint" />
-            <mxPoint x="350" y="180" as="sourcePoint" />
+            <mxPoint x="180" y="201" as="targetPoint" />
+            <mxPoint x="549.5" y="201" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eiOEAItG_VwJ-9S8kzIw-4" value="根据目录请求oss的url" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.369;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-6">
+        <mxCell id="eiOEAItG_VwJ-9S8kzIw-4" value="根据目录请求oss的url" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.369;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="220" as="sourcePoint" />
-            <mxPoint x="340" y="220" as="targetPoint" />
+            <mxPoint x="180" y="282" as="sourcePoint" />
+            <mxPoint x="347" y="281.03999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
