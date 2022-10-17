@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T03:49:31.859Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="NvhijuU_zXNX_aAA4OXq" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T03:50:26.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="N5yd52JvbbfgVeaDoVdr" version="20.4.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,6 +51,9 @@
             <mxPoint x="180" y="282" as="sourcePoint" />
             <mxPoint x="347" y="281.03999999999996" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eiOEAItG_VwJ-9S8kzIw-6" value="platform对接ai下载寻源日志和寻源结果逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
